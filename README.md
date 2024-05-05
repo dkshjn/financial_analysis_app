@@ -20,6 +20,7 @@ Access the application in your web browser at https://financial-analysis-app-dks
 2. Run the Streamlit application by executing streamlit run app.py in the terminal.
 3. Access the application in your web browser at http://localhost:8501.
 
+Check out the app demo video [here](https://drive.google.com/file/d/16YK9DCXpC6NrzuN_YA2jI8jj39HhrTO8/view?usp=sharing).
 ## Tech Stack
 - **Python:** Used as the primary programming language for backend development due to its simplicity, extensive libraries, and ecosystem support for financial analysis tasks.
 - **Streamlit:** Used for building the web application's user interface due to its ease of use, rapid prototyping capabilities, and ability to turn data scripts into interactive web apps.
