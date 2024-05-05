@@ -3,11 +3,14 @@
 The Financial Analysis App is a web application built to analyze financial data of companies retrieved from the SEC EDGAR database using ```sec-api```. It provides functionalities to fetch, analyze, and visualize financial statements, enabling users to gain insights into a company's performance over time.
 
 ## Features
-- **Company Overview:** This option provides a concise summary of the company based on its ticker name. It includes details such as founding information, headquarters location, key products, revenue sources, competitors, market capitalization, CEO, focus areas, and future plans. This overview is beneficial for users who want a quick understanding of the company's background and current position in the market.
+1. **Company Overview:** This option provides a concise summary of the company based on its ticker name. It includes details such as founding information, headquarters location, key products, revenue sources, competitors, market capitalization, CEO, focus areas, and future plans.
+- This overview is beneficial for users who want a quick understanding of the company's background and current position in the market.
   
-- **Product-Based Revenue Insights:** This feature analyzes the company's revenue breakdown by product categories over time. By visualizing revenue trends and distributions across different product lines, users can gain insights into the performance of individual products and identify which ones contribute most significantly to the company's overall revenue. This information is valuable for strategic decision-making, product planning, and assessing market demand.
+2. **Product-Based Revenue Insights:** This feature analyzes the company's revenue breakdown by product categories over time. By visualizing revenue trends and distributions across different product lines, users can gain insights into the performance of individual products and identify which ones contribute most significantly to the company's overall revenue.
+- This information is valuable for strategic decision-making, product planning, and assessing market demand.
 
-- **Region-Based Revenue Insights:** This option examines the company's revenue distribution across geographical regions or markets. By visualizing revenue trends by region, users can assess the company's global presence, identify growth opportunities in specific regions, and evaluate the impact of regional factors on revenue performance. Understanding regional revenue dynamics can help businesses optimize their market expansion strategies, allocate resources effectively, and mitigate geographical risks.
+3. **Region-Based Revenue Insights:** This option examines the company's revenue distribution across geographical regions or markets. By visualizing revenue trends by region, users can assess the company's global presence, identify growth opportunities in specific regions, and evaluate the impact of regional factors on revenue performance.
+- Understanding regional revenue dynamics can help businesses optimize their market expansion strategies, allocate resources effectively, and mitigate geographical risks.
 ## How to Run the Application
 Access the application in your web browser at https://financial-analysis-app-dkshjn.streamlit.app/
 
