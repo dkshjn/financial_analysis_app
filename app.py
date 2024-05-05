@@ -376,8 +376,11 @@ def main():
                 json_data = load_json_data("data/aapl_xbrl_data_final.json")
             if company == "GOOGL":
                 json_data = load_json_data("data/googl_xbrl_data_final.json")
+        try:        
             all_revenues = get_all_revenues(json_data)
-
+        except Exception:
+            st.write('Please enter "AAPL" or "GOOGL" to run the app. Due to API limits, analysis of all companies cannot be displayed.')
+            st.stop()
         st.write("Financial reports downloaded successfully.")
 
         # User chooses an analysis option
